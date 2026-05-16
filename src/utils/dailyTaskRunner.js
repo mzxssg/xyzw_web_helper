@@ -497,6 +497,16 @@ export class DailyTaskRunner {
         cmd: "card_claimreward",
         params: { cardId: 4003 },
       },
+      {
+        name: "领取永久卡礼包",
+        cmd: "card_claimreward",
+        params: { cardId: 1 },
+      },
+      {
+        name: "领取永久卡礼包",
+        cmd: "card_claimreward",
+        params: { cardId: 4002 },
+      },
     ];
 
     if (settings.claimEmail) {
