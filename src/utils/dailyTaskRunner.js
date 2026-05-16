@@ -492,20 +492,21 @@ export class DailyTaskRunner {
       { name: "领取每日礼包", cmd: "discount_claimreward" },
       { name: "领取每日免费奖励", cmd: "collection_claimfreereward" },
       { name: "领取免费礼包", cmd: "card_claimreward" },
+      
       {
-        name: "领取永久卡礼包",
-        cmd: "card_claimreward",
-        params: { cardId: 4003 },
-      },
-      {
-        name: "领取永久卡礼包",
+        name: "领取每日平时卡礼包",
         cmd: "card_claimreward",
         params: { cardId: 1 },
       },
       {
-        name: "领取永久卡礼包",
+        name: "领取月卡礼包",
         cmd: "card_claimreward",
         params: { cardId: 4002 },
+      },
+	  {
+        name: "领取永久卡礼包",
+        cmd: "card_claimreward",
+        params: { cardId: 4003 },
       },
     ];
 
