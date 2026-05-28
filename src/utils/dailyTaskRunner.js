@@ -551,16 +551,16 @@ export class DailyTaskRunner {
         ),
     });
 
-    taskList.push({
-      name: "领取通行证免费奖励",
-      execute: () =>
-        this.executeGameCommand(
-          tokenId,
-          "activity_recyclewarorderrewardclaim",
-          {actId:1},
-          "领取通行证免费奖励",
-        ),
-    });
+    // taskList.push({
+    //   name: "领取通行证免费奖励",
+    //   execute: () =>
+    //     this.executeGameCommand(
+    //       tokenId,
+    //       "activity_recyclewarorderrewardclaim",
+    //       {actId:1},
+    //       "领取通行证免费奖励",
+    //     ),
+    // });
 
     if (
       settings.freeGachaEnable !== false
